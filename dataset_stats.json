@@ -1,0 +1,92 @@
+{
+  "coco": {
+    "splits": {
+      "train2017": {
+        "images": 2816,
+        "annotations": 6211,
+        "category_counts": {
+          "2": 2560,
+          "6": 225,
+          "3": 651,
+          "1": 1806,
+          "5": 494,
+          "4": 475
+        },
+        "categories": {
+          "1": "dent",
+          "2": "scratch",
+          "3": "crack",
+          "4": "glass shatter",
+          "5": "lamp broken",
+          "6": "tire flat"
+        }
+      },
+      "val2017": {
+        "images": 810,
+        "annotations": 1744,
+        "category_counts": {
+          "3": 177,
+          "4": 135,
+          "6": 62,
+          "1": 501,
+          "2": 728,
+          "5": 141
+        },
+        "categories": {
+          "1": "dent",
+          "2": "scratch",
+          "3": "crack",
+          "4": "glass shatter",
+          "5": "lamp broken",
+          "6": "tire flat"
+        }
+      },
+      "test2017": {
+        "images": 374,
+        "annotations": 785,
+        "category_counts": {
+          "6": 32,
+          "2": 307,
+          "1": 236,
+          "5": 69,
+          "3": 70,
+          "4": 71
+        },
+        "categories": {
+          "1": "dent",
+          "2": "scratch",
+          "3": "crack",
+          "4": "glass shatter",
+          "5": "lamp broken",
+          "6": "tire flat"
+        }
+      }
+    },
+    "total_images": 4000,
+    "total_annotations": 8740
+  },
+  "sod": {
+    "splits": {
+      "CarDD-TR": {
+        "images": 2816
+      },
+      "CarDD-VAL": {
+        "images": 810
+      },
+      "CarDD-TE": {
+        "images": 374
+      }
+    },
+    "total_images": 4000
+  },
+  "total_images": 8000,
+  "total_annotations": 8740,
+  "damage_categories": {
+    "scratch": 3595,
+    "tire flat": 319,
+    "crack": 898,
+    "dent": 2543,
+    "lamp broken": 704,
+    "glass shatter": 681
+  }
+}
