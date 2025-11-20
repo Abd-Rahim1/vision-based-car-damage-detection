@@ -1,2 +1,35 @@
-/dataset
-/detectron2
+# DATASETS & LARGE FILES
+dataset/
+*/dataset/
+/dataset/*
+
+# Detectron2 weights & outputs
+/detectron2/
+/detectron2/*
+
+# YOLO pretrained weights
+/yolov8n.pt
+*.pt
+
+# DVC CACHE & METADATA
+/.dvc/tmp/
+/.dvc/cache/
+/.dvc/plots/
+/.dvc/config.local
+
+# PYTHON ENVIRONMENTS
+/venv/
+/env/
+/.yolo_car_damage_env/
+/.yolo_env/
+
+# EDITOR & SYSTEM FILES
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# CHECKPOINTS / LOGS
+/runs/
+/logs/
+/output/
