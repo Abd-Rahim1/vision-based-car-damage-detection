@@ -16,5 +16,26 @@
     "images_filtered": 0,
     "filter_reasons": {},
     "timestamp": "C:\\Users\\Document\\OneDrive\\Desktop\\Car_Damage_Detection"
+  },
+  "cleaning": {
+    "version": "v3",
+    "step": "cleaned",
+    "images_processed": 4000,
+    "images_cleaned": 3880,
+    "bboxes_processed": 8740,
+    "bboxes_removed": 478,
+    "duplicates_removed": 0,
+    "clean_reasons": {
+      "BBox area too small": 33,
+      "BBox outside image boundaries": 430,
+      "BBox dimensions too small": 9,
+      "BBox aspect ratio too extreme: 23.41": 1,
+      "BBox aspect ratio too extreme: 20.15": 1,
+      "BBox aspect ratio too extreme: 20.17": 1,
+      "BBox aspect ratio too extreme: 25.66": 1,
+      "BBox aspect ratio too extreme: 20.66": 1,
+      "BBox aspect ratio too extreme: 20.56": 1
+    },
+    "timestamp": "C:\\Users\\Document\\OneDrive\\Desktop\\Car_Damage_Detection"
   }
 }
