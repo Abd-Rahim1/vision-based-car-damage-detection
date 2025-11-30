@@ -7,5 +7,14 @@
     "categories_found": 6,
     "data_yaml": "data\\processed\\detection\\data.yaml",
     "timestamp": "C:\\Users\\Document\\OneDrive\\Desktop\\Car_Damage_Detection\\scripts\\detection\\data_preparation"
+  },
+  "filtering": {
+    "version": "v2",
+    "step": "filtered",
+    "images_processed": 4000,
+    "images_passed": 4000,
+    "images_filtered": 0,
+    "filter_reasons": {},
+    "timestamp": "C:\\Users\\Document\\OneDrive\\Desktop\\Car_Damage_Detection"
   }
 }
