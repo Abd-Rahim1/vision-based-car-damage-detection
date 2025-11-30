@@ -37,5 +37,31 @@
       "BBox aspect ratio too extreme: 20.56": 1
     },
     "timestamp": "C:\\Users\\Document\\OneDrive\\Desktop\\Car_Damage_Detection"
+  },
+  "preprocessing": {
+    "version": "v4",
+    "step": "preprocessed",
+    "final_images": 3880,
+    "final_annotations": 8262,
+    "image_size": 640,
+    "categories": 8,
+    "splits": [
+      {
+        "split": "train",
+        "images": 2730,
+        "annotations": 5869
+      },
+      {
+        "split": "val",
+        "images": 786,
+        "annotations": 1648
+      },
+      {
+        "split": "test",
+        "images": 364,
+        "annotations": 745
+      }
+    ],
+    "timestamp": "C:\\Users\\Document\\OneDrive\\Desktop\\Car_Damage_Detection"
   }
 }
