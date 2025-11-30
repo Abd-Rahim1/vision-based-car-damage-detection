@@ -1,0 +1,11 @@
+{
+  "conversion": {
+    "version": "v1",
+    "step": "converted",
+    "images_converted": 4000,
+    "annotations_converted": 8740,
+    "categories_found": 6,
+    "data_yaml": "data\\processed\\detection\\data.yaml",
+    "timestamp": "C:\\Users\\Document\\OneDrive\\Desktop\\Car_Damage_Detection\\scripts\\detection\\data_preparation"
+  }
+}
